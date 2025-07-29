@@ -1,0 +1,25 @@
+name: "gh-feed"
+description: "Atualiza o README com os últimos posts de um feed (Medium, Dev.to, WordPress, etc)"
+author: "Wanderley Cabral"
+branding:
+  icon: "rss"
+  color: "purple"
+inputs:
+  feed-url:
+    description: "URL do feed RSS ou Atom"
+    required: true
+  post-limit:
+    description: "Quantidade de posts"
+    required: false
+    default: "5"
+  readme-path:
+    description: "Caminho do README"
+    required: false
+    default: "./README.md"
+  feed-type:
+    description: "Tipo de feed (medium, devto, wordpress, etc). Opcional, para extensões futuras."
+    required: false
+    default: ""
+runs:
+  using: "node20"
+  main: "index.js"
