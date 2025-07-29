@@ -1,0 +1,25 @@
+{
+  "name": "gh-feed",
+  "version": "1.0.0",
+  "description": "GitHub Action para atualizar o README com os últimos posts de um feed RSS ou Atom.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabraldasilvac/gh-feed.git"
+  },
+  "keywords": [],
+  "author": "Wanderley Cabral",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cabraldasilvac/gh-feed/issues"
+  },
+  "homepage": "https://github.com/cabraldasilvac/gh-feed#readme",
+  "devDependencies": {
+    "@actions/core": "^1.11.1",
+    "rss-parser": "^3.13.0"
+  }
+}
