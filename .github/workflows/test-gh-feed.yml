@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run gh-feed action
-        uses: ./gh-feed/action.yml
+        uses: ./gh-feed
         with:
           feed-url: https://medium.com/feed/@wcabraldasilvac
           post-limit: 5
