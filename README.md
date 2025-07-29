@@ -36,3 +36,6 @@ Certifique-se de que seu README possui o bloco delimitador para os posts:
 3. Vá em “Actions” > “Marketplace” > “Publicar Action” e siga as instruções.
 
 ---
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
