@@ -2,6 +2,9 @@ name: Test gh-feed Action
 
 on:
   workflow_dispatch:
+  
+permissions:
+  contents: write
 
 jobs:
   update-readme:
