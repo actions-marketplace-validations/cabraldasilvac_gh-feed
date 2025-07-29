@@ -11,7 +11,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Se a action está local, use o caminho relativo
       - name: Run gh-feed action
         uses: ./gh-feed/action.yml
         with:
