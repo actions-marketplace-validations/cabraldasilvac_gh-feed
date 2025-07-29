@@ -13,7 +13,7 @@ jobs:
 
       # Se a action está local, use o caminho relativo
       - name: Run gh-feed action
-        uses: ./gh-feed
+        uses: ./gh-feed/action.yml
         with:
           feed-url: https://medium.com/feed/@wcabraldasilvac
           post-limit: 5
